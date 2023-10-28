@@ -96,15 +96,16 @@ body {
 }
 
 .images-row {
- 
 
-    
+
+
     gap: 32px;
 }
 
 .image1 {
     transform: translateX(-20px);
 }
+
 .image1 img {
     width: 312px;
     height: 310px;
@@ -117,9 +118,7 @@ body {
 
 
 
-.image-txt {
-
-}
+.image-txt {}
 
 .image-txt h4 {
     width: 283px;
@@ -142,12 +141,42 @@ body {
     letter-spacing: 1.6px;
     text-transform: uppercase;
 }
+
 .images2 {
     display: flex;
     justify-content: space-between;
     padding-top: 96px;
 }
+
 .image4 {
     transform: translateX(-25px);
 
+}
+
+footer {
+    background: #084935;
+}
+
+.footer-main {
+    padding: 4rem;
+}
+
+.footer-title h4 {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    
+   
+    /* 150% */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+.footer-title h2 {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px; 
 }
